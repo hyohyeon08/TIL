@@ -21,7 +21,7 @@ LLM을 하나의 지성체로 보고 스스로 기억을 기반으로 계획하�
 ### Multi Agent Architecture란
 - Agent가 서로 협력하여 문제를 해결하는 구조를 말함
 - Leader Agent와 Leader Agent가 생성하는 협업 Agent들로 Multi Agent 구조를 만듬
-![alt text](image.png)
+![alt text](image/image.png)
 1. Leader Agent가 Key Point Analyzer Agent에게 복잡한 질문을 간단한 여러개의 Sub-question으로 나눠 달라 요청
 2. Leader Agent가 Sub-question 목록을 받으면 각각의 Sub-question에 대하여 Question Answerer Agent을 생성하고 답해달라 요청
 3. Question Answerer Agent는 각 Sub-question에 필요한 정보를 Vector Store에서 찾아 이를 참고하여 답함
